@@ -16,7 +16,7 @@ export PLUG_IP=""
 STATE_FILE="$HOME/.tplink_state"
 
 function power() {
-  tplink -t 192.168.1.52 -c $1
+  tplink -t "$PLUG_IP" -c $1
   echo "$1" > "$STATE_FILE"
 }
 
