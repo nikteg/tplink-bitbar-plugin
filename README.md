@@ -11,3 +11,5 @@ Then open up your bitbar plugins folder and add your smartplugs's IP address in 
 ```bash
 export PLUG_IP="192.168.1.2"
 ```
+
+**NOTE!** The plugin requires the `tplink_smartplug.py` in https://github.com/softScheck/tplink-smartplug to be symlinked to `/usr/local/bin/tplink`.
